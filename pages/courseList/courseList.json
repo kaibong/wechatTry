@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "courseItem": "/components/courseComponent/c-component"
+  },
+  "navigationBarTitleText": "课程列表"
+}

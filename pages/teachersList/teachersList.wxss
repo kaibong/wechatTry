@@ -1,0 +1,8 @@
+.teacherContainer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.teacherContainer teacherItem{
+  margin: 10px 0px;
+}

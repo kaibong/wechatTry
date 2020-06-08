@@ -1,0 +1,22 @@
+/* pages/testDemo/testDemo.wxss */
+/* .one {
+  background-color: red;
+  width: 100rpx;
+  height: 100rpx;
+  display: inline-block;
+}
+view text {
+  display: block;
+} */
+view>text {
+  display: block;
+}
+.name {
+  color: orange;
+}
+.age {
+  color: red;
+}
+.school{
+  color: pink;
+}

@@ -1,0 +1,41 @@
+<!--pages/teachersList/teachersList.wxml-->
+<text>讲师列表</text>
+<view class="teacherContainer">
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+   <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/> <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/> <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/> <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/> <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/> <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+  <teacherItem/>
+</view>

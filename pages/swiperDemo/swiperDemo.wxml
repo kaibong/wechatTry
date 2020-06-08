@@ -1,0 +1,12 @@
+<!--pages/swiperDemo/swiperDemo.wxml-->
+<swiper class="lb" indicator-dots="true" indicator-color="white" indicator-active-color="tomato" autoplay="true" interval="5000" vertical >
+  <swiper-item>
+    <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3272958545,3950035758&fm=26&gp=0.jpg" class="image" bindtap="_handlerTap"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=234483973,4058528155&fm=26&gp=0.jpg" class="image"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2338085067,1004040057&fm=26&gp=0.jpg" class="image"></image>
+  </swiper-item>
+</swiper>

@@ -1,0 +1,4 @@
+<!--pages/courseList/courseList.wxml-->
+<text>课程列表</text>
+<courseItem/>
+<courseItem/><courseItem/><courseItem/><courseItem/><courseItem/><courseItem/><courseItem/><courseItem/>

@@ -1,0 +1,5 @@
+<!--components/teacherComponent/t-component.wxml-->
+<view class="teacherItem">
+  <image src="/assets/images/Koala.jpg" mode="aspectFill"></image>
+  <text>教师1号</text>
+</view>

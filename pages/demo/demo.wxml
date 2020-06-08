@@ -1,0 +1,30 @@
+<view class="container">
+  <image src="/assets/images/Jellyfish.jpg" class="header"></image>
+  <view class="loginPane">
+    <form bindsubmit="_handlerSubmit">
+      <view class="formItem">
+        <text class="lk_font icon-account"></text>
+        <input class="account" placeholder="请输入账号" name="account" bindinput="_handlerAccountInput"></input>
+        <icon type="{{isGood?'success':'warn'}}"></icon>
+      </view>
+      <view class="formItem"> 
+        <text class="lk_font icon-password"></text>
+        <input class="password" password placeholder="请输入密码" name="password" bindinput="_handlerPwdInput"></input>
+      </view>
+      <view class="spaceBetween formItem">
+        <checkbox-group name="rememberPwd" bindchange="_handlerRememberPwd">
+          <checkbox color="tomato" value="1" checked="{{rememberPwd}}">记住密码</checkbox>
+        </checkbox-group>
+        <checkbox-group name="autoLogin" bindchange="_handlerAutoLogin">
+          <checkbox color="tomato" value="1" checked="{{autoLogin}}">自动登录</checkbox>
+        </checkbox-group>
+      </view>
+      <view class="formItem">
+        <button type="primary" class="loginBtn" form-type="submit" disabled="{{!canLogin}}">登录</button>
+      </view>
+      <view>
+      <button class="registerBtn">注册</button>
+      </view>
+    </form>
+  </view>
+</view>

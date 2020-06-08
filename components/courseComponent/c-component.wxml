@@ -1,0 +1,10 @@
+<!--components/courseComponent/c-component.wxml-->
+<view class="courseItem">
+  <view class="fm"><image src="/assets/images/Jellyfish.jpg" mode="aspectFill"/></view>
+  <view class="desc">
+    <text class="courseTitle">java课程学习</text>
+    <text class="courseTeacher">讲师：kaibong</text>
+    <text class="courseStuCount">人数：100</text>
+    <text class="globalStyle">全局样式测试</text>
+  </view>
+</view>

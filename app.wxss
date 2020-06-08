@@ -1,0 +1,29 @@
+.globalStyle{
+  color: cyan !important;
+  font-size: 25px !important;
+}
+@font-face {
+  font-family:"iconfont";
+  src: url('//at.alicdn.com/t/font_1787075_g1he78s05yi.eot?t=1588041710565');
+  /* IE9 */
+  src: url('//at.alicdn.com/t/font_1787075_g1he78s05yi.eot?t=1588041710565#iefix') format('embedded-opentype'),
+  /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMsAAsAAAAABywAAALfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCEIIQATYCJAMMCwgABCAFhG0HPBtcBhHVk+lkPxJj2wdZppZFT9hJ1AT/T7p+586b5COu0ol6xa/Ak128FO2oEwCbc9UNjIpQIzn75NEXko3TS7MHIw6nzfMukPmW5TLHOI+6AOOAAhprU0CBFkhA3jB25UUchoBslKIG6tCpxwCy4DFGCdCMqZPHkiVlwtdUiyyIsGShR3sIyOK2uufAbv/7+k09ZQFHYBgT+0zqOIE23/g20NYkaxjhEhCP5wDYMjCgBuBBo0pTQzDE6EY2la8vDvEIN1Y0SXyRqglX+sdzoBCjMgcAVWDawTdsLgTfBi7BAWAAhCDTF1gOqQXezLB8+fLkyaHl2XQyNSiKypJN6fTgOB445MiTbY9KrLlckTXnt1+Uzl4d745FHXJlpsrZyXTn3M/i+Y+ibalWUTSAePdgpVI5OilTAygGdJ1Y523J+dWrN189JpgQNt5crnoiT7t3nV4uk+9eqN1PJ3Cx3UUKtys6LO/AMgPzDivart7NbWrTjmI4OoUb8Xbd/CmVl0ytumF0semHmNSx3pJMq2NHxk88WHW6271Vk02+y8eKaZzmJjs+7MIYAJI1Zgr8zFU7bH1/wG/Q07X7Rudu8T9Ldg/Axxf3/sFgssbT3kKW03MLXre4ZZ1XtWC1l0W2SPcYDU7d4QAKuJcEw5ePr/01BVsnQGRJiRkcGZSEkYUKRE+tgYDsNEBIFlojG9XpvDw7+ZmHIZ8VqMZGAJGHq3Dk4imMPLwgeuoXBBTiL0LyyJCNQcq/YXYqCZ5angStYgD3h8nzTpZVy6D6jsOxWklKfcYbJU1RaKsmm73hjjLGlPQZOlUCEt7gCo7DdWWIwjN6rUbV2Nc1lb2o8ryZkpOgVQzg/jB53sltrmXu83ccjtVKTU2F942SpvahrZoWxJtqb1VzLc+kz9CpEpDwBlfgwNVMMcTyfjN6rcYeidjXqBG1VVXza7bn2wJkw7jF5GTy5HNsSl+WkFnv+djVGAA=') format('woff2'), url('//at.alicdn.com/t/font_1787075_g1he78s05yi.woff?t=1588041710565') format('woff'), url('//at.alicdn.com/t/font_1787075_g1he78s05yi.ttf?t=1588041710565') format('truetype'),
+  /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1787075_g1he78s05yi.svg?t=1588041710565#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.lk_font {
+  font-family:"iconfont" !important;
+  color: tomato;
+  font-size: 36rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-password:before {
+  content:"\e600";
+}
+.icon-account:before {
+  content:"\e655";
+}

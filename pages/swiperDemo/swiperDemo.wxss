@@ -1,0 +1,8 @@
+/* pages/swiperDemo/swiperDemo.wxss */
+.image{
+  width: 100%;
+  height: 100%;
+}
+.lb{
+  height: 400rpx;
+}

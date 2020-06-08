@@ -1,0 +1,166 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.4",
+	"appid": "wx3ad1d9d5589481b6",
+	"projectname": "NICEtry",
+	"cloudfunctionTemplateRoot": "",
+	"watchOptions": {
+		"ignore": []
+	},
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "讲师测试",
+					"pathName": "pages/teachersList/teachersList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "课程测试",
+					"pathName": "pages/courseList/courseList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "数据绑定",
+					"pathName": "pages/dataBind/dataBind",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "wxss内联样式",
+					"pathName": "pages/wxss-study/wxss-study",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "view组件测试",
+					"pathName": "pages/viewDemo/viewDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "text组件测试",
+					"pathName": "pages/textDemo/textDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "image组件测试",
+					"pathName": "pages/imageDemo/imageDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "icon组件测试",
+					"pathName": "pages/iconDemo/iconDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "button组件测试",
+					"pathName": "pages/buttonDemo/buttonDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "登录测试",
+					"pathName": "pages/demo/demo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "swiper测试",
+					"pathName": "pages/swiperDemo/swiperDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "move测试",
+					"pathName": "pages/moveDemo/moveDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 12,
+					"name": "move测试2",
+					"pathName": "pages/moveDemo/moveDemo2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "自定义组件测试",
+					"pathName": "pages/customWidgetDemo/customWidgetDemo",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

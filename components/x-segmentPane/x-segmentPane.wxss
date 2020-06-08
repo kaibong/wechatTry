@@ -1,0 +1,11 @@
+/* components/x-segmentPane/x-segmentPane.wxss */
+.segmentPane {
+
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+}
+.segmentContainer{
+  background-color: green;
+  flex: 1;
+}

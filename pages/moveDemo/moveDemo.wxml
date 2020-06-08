@@ -1,0 +1,6 @@
+<!--pages/moveDemo/moveDemo.wxml-->
+<movable-area class="ma">
+  <movable-view class="mv" direction="all" inertia friction="1">
+    xxx
+  </movable-view>
+</movable-area>

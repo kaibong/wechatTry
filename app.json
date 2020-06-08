@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/teachersList/teachersList",
+    "pages/courseList/courseList",
+    "pages/dataBind/dataBind",
+    "pages/wxss-study/wxss-study",
+    "pages/viewDemo/viewDemo",
+    "pages/textDemo/textDemo",
+    "pages/imageDemo/imageDemo",
+    "pages/iconDemo/iconDemo",
+    "pages/buttonDemo/buttonDemo",
+    "pages/demo/demo",
+    "pages/swiperDemo/swiperDemo",
+    "pages/moveDemo/moveDemo",
+    "pages/moveDemo/moveDemo2",
+    "pages/customWidgetDemo/customWidgetDemo"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#d4237a",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/teachersList/teachersList",
+        "text": "讲师列表",
+        "iconPath": "/assets/tablebar/teacher-no.png",
+        "selectedIconPath": "/assets/tablebar/teacher-sel.png"
+      },
+      {
+        "pagePath": "pages/courseList/courseList",
+        "text": "课程列表",
+        "iconPath": "/assets/tablebar/course-no.png",
+        "selectedIconPath": "/assets/tablebar/course-sel.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,63 @@
+<!--pages/dataBind/dataBind.wxml-->
+<block wx:for="{{courseItem}}" wx:for-index="time" wx:for-item="course">
+<!-- wx:for 用于循环  wx:for-index 用于该循环的索引名 每次循环的对象名为item wx:for-item 用于该循环对象名-->
+  <view class="courseItem {{course.isStar?'isStar':''}}">
+    <view class="fm"><image src="{{item.courseImg}}" mode="aspectFill"/></view>
+    <view class="desc">
+      <text class="courseTitle">{{course.courseName}}</text>
+      <text class="courseTeacher">讲师：{{course.teacher}} <text class="isStar" wx:if="{{course.isStar}}">星级讲师</text></text> 
+      <text class="courseStuCount">人数：{{tool3.parseNum(course.stuCount)}}人</text>
+      <text>{{time}}</text>
+    </view>
+  </view>
+</block>
+<block wx:for="{{testKeyData}}">
+  <switch/>
+  <text>{{item}}</text>
+ 
+</block>
+<button bindtap="_handlerTap">点击增加</button>
+<text>{{tool.tstFunc()}}</text>
+<navigator></navigator>
+<text>{{tool2.sum(5,6)}}</text>
+<wxs module="tool">
+  function tst(){
+    console.log("tst")
+    return "tst-function"
+  }
+  module.exports = {
+    tstFunc:tst
+  }
+</wxs>
+<!-- 引入定义的wxs模块 -->
+<wxs module="tool2" src="dataBind.wxs" />
+<wxs module="tool3">
+  function parseNum(count){
+    if(count<1000){
+      return count
+    }else if(count >= 1000 && count < 10000){
+      return (count/1000).toFixed(2) + "k"
+    }else{
+      return (count/10000).toFixed(2) + "w"
+    }
+  }
+  module.exports = {
+    parseNum: parseNum
+  }
+</wxs>
+
+<!-- 100=满分 >=90优秀 >=80良好 >=60及格 <60不及格  -->
+<view wx:if="{{score==100}}">满分</view>
+<view wx:elif="{{score>=90}}">优秀</view>
+<view wx:elif="{{score>=80}}">良好</view>
+<view wx:elif="{{score>=60}}">及格</view>
+<view wx:else>不及格</view>
+
+<block wx:if="{{score>=60}}">
+  <view>及格</view>
+  <view>奖励100块</view>
+</block>
+<block wx:if="{{score<60}}">
+  <view>不及格</view>
+  <view>奖励一个巴掌</view>
+</block>

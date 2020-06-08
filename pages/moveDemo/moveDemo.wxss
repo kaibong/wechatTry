@@ -1,0 +1,12 @@
+/* pages/moveDemo/moveDemo.wxss */
+.ma{
+  width: 400rpx;
+  height: 400rpx;
+  background-color: orange;
+  margin: 100rpx auto;
+}
+.mv{
+  width: 100rpx;
+  height: 100rpx;
+  background-color: red;
+}

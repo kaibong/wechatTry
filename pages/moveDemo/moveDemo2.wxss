@@ -1,0 +1,23 @@
+/* pages/moveDemo/moveDemo2.wxss */
+.cell{
+  height: 100rpx;
+  background-color: orange;
+  margin-top: 100rpx;
+  display: flex;
+}
+.delBtn{
+  width: 100rpx;
+  line-height: 100rpx;
+  font-size: 22rpx;
+}
+.ma{
+  height: 100%;
+  background-color: tomato;
+  flex: 1;
+}
+.mv{
+  width: 100vw;
+  height: 100rpx;
+  z-index: 999;
+  background-color: cyan;
+}

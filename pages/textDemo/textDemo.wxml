@@ -1,0 +1,16 @@
+<!-- <text class="one">1</text>
+<text class="two">2</text>
+<text class="three">3</text> -->
+
+<!-- <view>
+<text space="ensp">超级 小桀</text>
+<text space="emsp">超级 小桀</text>
+<text space="nbsp">超级 小桀</text>
+<text decode="{{true}}">超级&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小桀</text>
+</view> -->
+
+<view>
+<text>姓名： <text class="name">Zqb</text></text>
+<text>年龄： <text class="age" decode="{{true}}">18&nbsp;&nbsp;&nbsp;岁</text></text>
+<text>机构： <text class="school">新余学院</text></text>
+</view>
